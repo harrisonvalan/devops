@@ -27,4 +27,4 @@ A full-stack web application for managing and viewing student results, built wit
 1. **Clone the repository**
    ```bash
    git clone https://github.com/your-username/student-result-portal.git
-   cd student-result-portal
+   cd student-result-portal# newproj
