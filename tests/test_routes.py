@@ -27,18 +27,14 @@ def init_database(app):
         admin = User(username='admin', email='admin@school.edu', role='admin')
         admin.set_password('admin123')
         db.session.add(admin)
-        
+
         # Create student user
         student = User(username='student1', email='student1@school.edu', role='student')
         student.set_password('student1')
         db.session.add(student)
-        
-        # Create some results
-        result1 = Result(student_id=student.id, subject='Mathematics', marks=85)
-        result2 = Result(student_id=student.id, subject='Science', marks=92)
-        db.session.add_all([result1, result2])
-        
-        db.session.commit()
+
+        db.session.commit()  # Commit users first to get IDs
+
     
     return db
 
