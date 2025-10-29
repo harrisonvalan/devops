@@ -1,10 +1,8 @@
-# TODO: Make login.html UI More Colorful
+# TODO: Update Admin Dashboard UI and Sample Data
 
-- [x] Add gradient background to the main container for visual appeal
-- [x] Update submit button styling to a vibrant color (e.g., gradient or purple/green)
-- [x] Style form inputs with colorful borders and focus states (e.g., purple or green accents)
-- [x] Enhance demo credentials box with a more colorful background and borders
-- [x] Adjust text colors and headings for better contrast and vibrancy
-- [x] Run Flask app locally to verify the colorful UI renders correctly
-- [ ] Test form functionality and responsiveness on different screen sizes
-- [ ] Adjust colors based on visual feedback if needed
+- [x] Change sample student names in CSV format table (e.g., Alice Johnson, Bob Wilson, etc.)
+- [x] Update subjects to different ones (e.g., Physics, Chemistry, English, etc.)
+- [x] Modify marks to different values
+- [x] Apply different styling to the CSV format section (colorful gradients, updated colors)
+- [ ] Test the updated admin dashboard locally
+- [ ] Commit and push changes to repository
